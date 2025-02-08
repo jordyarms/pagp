@@ -1,0 +1,8 @@
+{system_prompt}
+
+Input:
+- **Title:** "{title}"
+- **Description:** "{description}"
+
+### **Output format (JSON)**:
+{ "entities": ["<list_of_entities>"], "key_concepts": ["<list_of_key_concepts>"], "themes": ["<list_of_themes>"], "sentiment": "<sentiment_label>" }

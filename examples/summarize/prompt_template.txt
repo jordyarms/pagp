@@ -1,0 +1,8 @@
+{system_prompt}
+
+Input:
+- **Title:** "{title}"
+- **Description:** "{description}"
+
+### **Output format (JSON)**:
+{ "executive_summary": "<generated_summary>" }

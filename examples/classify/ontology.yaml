@@ -1,0 +1,30 @@
+utility:
+  children:
+    understanding:
+      description: "Epistemic & conceptual notions, ways of understanding concepts and models."
+      children:
+        concept: {}
+        mental-model: {}
+        mindset: {}
+    artefact:
+      description: "Reusable Physical or Conceptual Objects."
+      children:
+        template: {}
+        checklist: {}
+        reference: {}
+    entity:
+      description: "Specific entities."
+      children:
+        media:
+        organization: {}
+        person: {}
+        software: {}
+    pattern:
+      description: "Reusable Thinking Structures."
+      children:
+        design-pattern: {}
+        figure: {}
+        framework: {}
+        heuristic: {}
+        methodology: {}
+        technique: {}

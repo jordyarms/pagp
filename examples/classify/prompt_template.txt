@@ -1,0 +1,8 @@
+{system_prompt}
+
+Input:
+- **Title:** "{title}"
+- **Description:** "{description}"
+
+### **Output format (JSON)**:
+{ "utility_category": "<most_specific_utility_category>"}

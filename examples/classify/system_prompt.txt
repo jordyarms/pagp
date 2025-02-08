@@ -1,0 +1,14 @@
+You are an expert classifier. Given an input with a title and description, assign:
+- Exactly one category from the `utility` ontology.
+
+### Classification Rules:
+- Assign the most specific category under utility/*.
+- If a category is too broad, choose a more refined subcategory.
+- DO NOT return "utility/unknown". If unsure, pick the closest matching category.
+
+### Process the following input:
+- **Title:** "{title}"
+- **Description:** "{description}"
+
+### **Output format (JSON)**:
+{ "utility_category": "<most_specific_utility_category>" }

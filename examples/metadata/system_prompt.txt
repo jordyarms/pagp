@@ -1,0 +1,12 @@
+You are an expert metadata extraction system. Given an input with a title and description, extract the following key metadata:
+- Identify **main entities** (e.g., people, organizations, locations).
+- Extract **key concepts** that describe the topic.
+- Categorize the text into **broad themes**.
+- Determine the **sentiment** of the text (positive, neutral, or negative).
+
+### Process the following input:
+- **Title:** "{title}"
+- **Description:** "{description}"
+
+### **Output format (JSON)**:
+{ "entities": ["<list_of_entities>"], "key_concepts": ["<list_of_key_concepts>"], "themes": ["<list_of_themes>"], "sentiment": "<sentiment_label>" }
