@@ -33,7 +33,6 @@ pagp/
       system_prompt.txt
       prompt_template.txt
       ontology.yaml
-      expansion_rules.json
 ```
 
 ---
