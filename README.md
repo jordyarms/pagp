@@ -90,11 +90,6 @@ python pagp.py --config examples/classify/config.yaml --input test_input_data.js
 Each use case has its own `config.yaml` file that defines:
 
 ```yaml
-execution:
-  batch_processing: true
-  incremental_saving: true
-  max_retries: 3
-
 supporting_materials:
   system_prompt: "system_prompt.txt"
   prompt_template: "prompt_template.txt"
