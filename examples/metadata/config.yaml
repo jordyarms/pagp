@@ -7,14 +7,6 @@ supporting_materials:
   system_prompt: "system_prompt.txt"
   prompt_template: "prompt_template.txt"
 
-input:
-  source_type: "json"
-  file_path: "../test_input_data.json"
-
-output:
-  format: "json"
-  destination: "../test_metadata.json"
-
 variables:
   "{title}": "title"
   "{description}": "description"

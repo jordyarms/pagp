@@ -9,14 +9,6 @@ supporting_materials:
   additional_inclusions:
     ontology: "ontology.yaml"
 
-input:
-  source_type: "json"
-  file_path: "../test_input_data.json"
-
-output:
-  format: "json"
-  destination: "../test_classifications.json"
-
 variables:
   "{title}": "title"
   "{description}": "description"

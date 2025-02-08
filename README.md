@@ -99,14 +99,6 @@ supporting_materials:
   system_prompt: "system_prompt.txt"
   prompt_template: "prompt_template.txt"
 
-input:
-  source_type: "json"
-  file_path: "../test_input_data.json"
-
-output:
-  format: "json"
-  destination: "../test_output.json"
-
 variables:
   "{title}": "title"
   "{description}": "description"
@@ -124,15 +116,4 @@ variables:
 
 ## 📜 License
 
-This project is open-source. Feel free to modify and extend it!
-
----
-
-## 🏆 Contributors
-
-- [Your Name]
-- [Your Organization]
-
----
-
-🚀 **Now you can package and share PAGP easily!** Let me know if you need further modifications!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
