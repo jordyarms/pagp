@@ -4,7 +4,6 @@ import yaml
 import os
 import argparse
 from dotenv import load_dotenv
-import requests
 
 
 load_dotenv()
@@ -14,14 +13,6 @@ API_BASE_URL = os.getenv("PAGP_BASE_URL")
 API_KEY = os.getenv("PAGP_API_KEY")
 MODEL = os.getenv("PAGP_MODEL")
 
-# Verify API connection before running
-try:
-    response = requests.get(f"{API_BASE_URL}/models", timeout=5)
-    response.raise_for_status()
-    print("✅ Successfully connected to LLM API URL.")
-except requests.exceptions.RequestException as e:
-    print(f"❌ Connection Error: {e}")
-    exit(1)
 
 # Initialize OpenAI client
 client = openai.OpenAI(

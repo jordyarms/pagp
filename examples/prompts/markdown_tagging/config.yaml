@@ -10,7 +10,7 @@ execution:
 
 supporting_materials:
   system_prompt: "system_prompt.txt"
-  prompt_template: "prompt_template.txt"s
+  prompt_template: "prompt_template.txt"
 
 input:
   source_type: "markdown_folder" # NEW: Processes all markdown files in a folder
