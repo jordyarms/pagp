@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      "Activity diagrams",
+      "Unified Modeling Language",
+      "workflows",
+      "data flows"
+    ],
+    "key_concepts": [
+      "graphical representations",
+      "stepwise activities",
+      "actions",
+      "choice",
+      "iteration",
+      "concurrency",
+      "computational processes",
+      "organizational processes",
+      "data movement"
+    ],
+    "themes": [
+      "Software Engineering",
+      "Modeling and Simulation",
+      "Software Architecture",
+      "Workflow Management",
+      "Process Analysis and Design"
+    ],
+    "sentiment": "neutral"
+  }
+]

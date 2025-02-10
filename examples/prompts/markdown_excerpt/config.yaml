@@ -1,24 +1,6 @@
-client:
-  base_url: "${PAGP_BASE_URL}"
-  api_key: "${PAGP_API_KEY}"
-  model: "${PAGP_MODEL}"
-
-execution:
-  batch_processing: true
-  incremental_saving: true
-  max_retries: 3
-
 supporting_materials:
   system_prompt: "system_prompt.txt"
   prompt_template: "prompt_template.txt"
-
-input:
-  source_type: "markdown_folder" # NEW: Processes all markdown files in a folder
-  folder_path: "../markdown_files/" # Path to the markdown files
-
-output:
-  format: "markdown"
-  destination: "overwrite" # Directly modifies the original Markdown files
 
 variables:
   "{content}": "markdown_content" # Reads full markdown file

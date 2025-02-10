@@ -1,6 +1,26 @@
 ⚠️ Warning: this is in active development – current results are experimental.
 ⚠️ Warning: current readme is out of date, refinements coming soon.
 
+---
+
+# Quick-Start
+
+mac venv quickstart
+
+```sh
+python -m venv venv
+```
+
+```sh
+source venv/bin/activate
+```
+
+```sh
+pip install -r requirements.txt
+```
+
+---
+
 # Python Auto Generating Prompt (PAGP)
 
 ## Overview
