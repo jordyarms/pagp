@@ -1,0 +1,14 @@
+{system_prompt}
+
+### **Input:**
+- **Frontmatter YAML:** 
+{frontmatter}
+
+- **Markdown Content:** 
+{content}
+
+Output format (YAML):
+tags:
+- "topic/<theme1>"
+- "topic/<theme2>"
+- "topic/<theme3>"
