@@ -5,7 +5,6 @@ import os
 import argparse
 from dotenv import load_dotenv
 
-
 load_dotenv()
 
 # Get API variables
@@ -19,7 +18,6 @@ client = openai.OpenAI(
     base_url=API_BASE_URL,
     api_key=API_KEY
 )
-
 
 parser = argparse.ArgumentParser(description="Python Auto Generating Prompt (PAGP) Executor")
 parser.add_argument("--config", required=True, help="Path to the config.yaml file")
